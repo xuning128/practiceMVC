@@ -26,5 +26,12 @@ namespace work1.Controllers
 
             return View();
         }
+
+        public ActionResult MyList()
+        {
+            ViewBag.Message = "Make a list.";
+
+            return View();
+        }
     }
 }
